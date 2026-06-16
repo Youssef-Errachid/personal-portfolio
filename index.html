@@ -10,13 +10,13 @@
 <body>
     <header>
         <nav>
-            <div>YOUSSEF</div>
+            <div class="logo">YOUSSEF Errachid</div>
           <ul>
-            <li>Welcome</li>
-            <li>About</li>
-            <li>Skils</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li><a href="#welcome">Welcome</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skils">Skils</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
 <h1>Hi I'm Youssef Errachid</h1>  
@@ -28,7 +28,7 @@
      human-centered products and expanding my technological horizons.</p>
     </header>
     <main>
-        <section>
+        <section id="about">
             <h2>About Me</h2>
             <div>
                 <p>Hello! My name is Youssef and I enjoy creating things that live on the internet. My interest in software development started back when I began dissecting complex problems and realized the power of architecting elegant solutions.</p>
@@ -42,7 +42,7 @@
                 </ul>
             </div>
         </section>
-        <section>
+        <section id="skils">
             <h2>Skils</h2>
             <div>
                     <div>
@@ -82,53 +82,60 @@
                     </div>
             </div>
         </section>
-        <section>
+        <section id="projects">
             <h2>Projects</h2>
             <div>
                 <h3>project 1</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda culpa commodi veritatis, possimus laudantium perferendis itaque facilis at maxime repellat.</p>
-                <spam>html</spam>
-                <spam>css</spam>
-                <spam>javascript</spam>
+                <span>html</span>
+                <span>css</span>
+                <span>javascript</span>
                 <a href="">GitHub</a>
             </div>
                    <div>
-                <h3>project 1</h3>
+                <h3>project 2</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda culpa commodi veritatis, possimus laudantium perferendis itaque facilis at maxime repellat.</p>
-                <spam>html</spam>
-                <spam>css</spam>
-                <spam>javascript</spam>
+                <span>html</span>
+                <span>css</span>
+                <span>javascript</span>
                 <a href="">GitHub</a>
             </div>
                    <div>
-                <h3>project 1</h3>
+                <h3>project 3</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda culpa commodi veritatis, possimus laudantium perferendis itaque facilis at maxime repellat.</p>
-                <spam>html</spam>
-                <spam>css</spam>
-                <spam>javascript</spam>
+                <span>html</span>
+                <span>css</span>
+                <span>javascript</span>
                 <a href="">GitHub</a>
             </div>
         </section>
-        <section>
+        <section id="contact">
             <h2>Contact Me</h2>
             <div>
                 <form action="">
                     <label for="name">Name</label>
-                    <textarea name="name" id="" placeholder="Your Name"></textarea>
+                    <input type="text" name="name" id="name" placeholder="Your Name" required>
                     <label for="Email">Email</label>
-                    <textarea name="Email" id="" placeholder="Your Email"></textarea>
+                    <input type="email" name="Email" id="email" placeholder="Your Email" required>
                     <label for="message">Message</label>
-                    <textarea name="message" id="" placeholder="Your message"></textarea>
-                    <button>Send</button>
+                    <label for="message">Message</label>
+    <textarea 
+      name="message" 
+      id="message" 
+      placeholder="Your message"
+      required
+      minlength="10"
+    ></textarea>
+                    <button type="submit">Send</button>
                 </form>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>2026</p>
+        <p>© 2026 Youssef Errachid. All rights reserved.</p>
     </footer>
-   
+
     
 </body>
 </html>
