@@ -42,6 +42,7 @@ nav{
     width: 100%;
     z-index: 1000;
     border-bottom:1px solid #ffffff;
+    border-color: #64ffda;
 }
 
 .logo{
@@ -65,6 +66,94 @@ nav ul li a:hover{
     color: #64ffda;
 }
 
+.nav-element{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.resume-btn{
+width: 80px;
+height: 30px;
+border-radius: 5px;
+border:1px solid #64ffda;
+background-color: #64ffda;
+color: #0b1b32;
+cursor: pointer;
+}
+
+.resume-btn:hover{
+border:1px solid #64ffda;
+background-color: #0b1b32;
+color: aliceblue;
+}
+
 header{
-    padding-top: 100px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+    padding-inline: 20px;
+}
+
+.hero-content{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 100px;
+    max-width: 80%;
+}
+
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: start;
+}
+
+.hero-info p{
+    text-align: start;
+}
+
+.hero-btn1{
+width: 200px;
+height: 50px;
+border-radius: 5px;
+border:1px solid #64ffda;
+background-color: #0b1b32;
+color: aliceblue;
+cursor: pointer;
+}
+.hero-btn1:hover{
+border:1px solid #64ffda;
+background-color: #64ffda;
+color: #0b1b32;
+}
+
+.hero-btn2{
+width: 200px;
+height: 50px;
+border-radius: 5px;
+border:1px solid #64ffda;
+background-color: #64ffda;
+color: #0b1b32;
+cursor: pointer;
+}
+
+.hero-btn2:hover{
+border:1px solid #64ffda;
+background-color: #0b1b32;
+color: aliceblue;
+}
+
+.hero-img {
+  width: 320px;
+  height: 340px;
+  border-radius: 50%;            
+  object-fit: cover;           
+  border: 0.5px solid #64ffda ;
+  margin-bottom: 10px;
 }
