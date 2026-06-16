@@ -80,12 +80,14 @@ border:1px solid #64ffda;
 background-color: #64ffda;
 color: #0b1b32;
 cursor: pointer;
+ transition: 0.3s ease;
 }
 
 .resume-btn:hover{
 border:1px solid #64ffda;
 background-color: #0b1b32;
 color: aliceblue;
+ box-shadow: 3px 3px 25px #64ffda;
 }
 
 header{
@@ -118,6 +120,12 @@ header{
     text-align: start;
 }
 
+.hero-btns{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
 .hero-btn1{
 width: 200px;
 height: 50px;
@@ -126,11 +134,13 @@ border:1px solid #64ffda;
 background-color: #0b1b32;
 color: aliceblue;
 cursor: pointer;
+ transition: 0.3s ease;
 }
 .hero-btn1:hover{
 border:1px solid #64ffda;
 background-color: #64ffda;
 color: #0b1b32;
+ box-shadow: 3px 3px 25px #64ffda;
 }
 
 .hero-btn2{
@@ -141,12 +151,14 @@ border:1px solid #64ffda;
 background-color: #64ffda;
 color: #0b1b32;
 cursor: pointer;
+ transition: 0.3s ease;
 }
 
 .hero-btn2:hover{
 border:1px solid #64ffda;
 background-color: #0b1b32;
 color: aliceblue;
+ box-shadow: 3px 3px 25px #64ffda;
 }
 
 .hero-img {
@@ -156,4 +168,11 @@ color: aliceblue;
   object-fit: cover;           
   border: 0.5px solid #64ffda ;
   margin-bottom: 10px;
+    transition: 0.3s ease;
+}
+
+.hero-img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 25px #64ffda;
+    
 }
