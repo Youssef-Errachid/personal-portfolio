@@ -87,7 +87,7 @@ nav ul li a:hover{
     transition: 0.3s ease;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     .nav-element{
         display: none;
     }
@@ -209,16 +209,16 @@ color: aliceblue;
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
-    gap: 50px;
+    gap: 5px;
     max-width: 100%;
 }
 .hero-img {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;            
-  object-fit: cover;           
+  object-fit: cover;   
+  margin-top: 10px;        
   border: 0.5px solid #64ffda ;
-  margin-bottom: 10px;
     transition: 0.3s ease;
 }
 }
