@@ -238,7 +238,7 @@ color: var(--primary);
 
 
 section{
-    padding: 100px 0;
+    padding: 40px 0;
     max-width: 1000px;
     margin: 0 auto;
     padding-inline: 20px;
@@ -418,7 +418,7 @@ section h2::after {
     display: flex;
     flex-direction: column;
     width: 90%;
-    height: 280px;
+    height: 380px;
     box-shadow: 0 0 2px #f4f9f8;
     border-radius: 5px;
     padding-top: 5px;
@@ -669,4 +669,41 @@ footer {
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(-10px); }
   to { opacity: 1; transform: translateY(0); }
+}
+
+
+
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  color: var(--bg_color);
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+}
+
+.back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.back-to-top:hover {
+  background-color: var(--bg_color);
+  color: var(--primary);
+  box-shadow: 0 0 20px var(--primary);
+  border: 1px solid var(--primary);
 }
